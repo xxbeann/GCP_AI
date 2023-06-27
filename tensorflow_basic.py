@@ -24,3 +24,20 @@ print(tf.add(1,2))
 print(tf.add([1,2],[3,4]))
 print(tf.square(5))
 print(tf.reduce_sum([1,2,3]))
+
+# 속성과 타입 변환
+a = tf.constant([[1,2],
+                [3,4]])
+print(a)
+print(type(a))
+print(a.shape)
+print(a.dtype)
+
+# Tensor객체를 ndarray로 변환
+n = a.numpy()
+print(n, type(n)) # <class 'numpy.ndarray'>
+
+# 파이썬 native 타입으로 변환
+a = tf.constant(10)
+b = int(a)
+print(b, type(b))
