@@ -9,3 +9,23 @@ but, 단점 gpu를 못씀 -> gpu를 쓸 수 있게 만든게 구글의 tensor
 
 ideas<br>
 - 택시 승하차 지점 분석 -> 시간대 사람 많이 모이는 곳 추천 시스템
+
+### tf.Tensor: 텐서 객체
+텐서는 다차원 배열로 넘파이 array와 비슷하며, tf.Tensor 객체는 데이터 타입과 크기르 가지고 있다.<br>
+또한 tf.Tensor는 GPU같은 가속기 메모리에 상주할 수 있다.<br>
+텐서플로는 텐서를 생성하고 이용하는 풍부한 연산 라이브러리(ft.add, tf.matmul, tf.linalg inv 등)를 제공하며<br>
+연산수행 시 자동으로 텐서를 파이썬 네이티브 타입으로 변환하여 연산한다.
+
+### Tensorflow
+W(가중치) * X + b
+AI - 규칙기반 -> 학습기반(머신러닝:ML)<br>머신러닝 알고리즘 중 하나가 딥러닝(인공신경망을 깊게 쌓아만듬)
+
+### Tensorflow_Rank
+1차원 shape : (3,)  
+2차원 shape : (3, 3)  
+3차원 shape : (2, 3, 3)  
+4차원 shape : (1, 2, 3, 3)  
+축 axis num = index num (ex 0, 1, 2, 3)  
+
+### Tensorflow_shape
+shape로 신경망을 만듬.
