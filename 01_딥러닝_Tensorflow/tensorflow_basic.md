@@ -4,7 +4,7 @@
 * Linear Regression(선형 회귀) : 1차 함수, 직선의 방정식
 * Weigh(가중치) : 입력변수가 출력에 미치는 영향, 기울기
 * Bias(편향) : 기본 출력 값이 활성화 되는 정도, y절편
-* Cost function(비용함수) : 2차 함수, 포물선의 방정식, (예측값 -실제값)^2, (H(x)-y)^2
+* Cost function(비용함수) : 2차 함수, 포물선의 방정식, (예측값 -실제값)^2, (H(x)-y)^2 의 평
 * Hypothesis(예측 함수) : predict, H(x): 예측 값, y값: 답, x값: 입력 값(feature), H(x) = W * x + b
 * 경사 하강법: 비용이 가장 적은 weigh를 구하는 알고리즘
 
