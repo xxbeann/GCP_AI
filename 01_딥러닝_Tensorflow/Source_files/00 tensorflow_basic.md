@@ -64,7 +64,8 @@ C(H(x),y)=-ylog(H(X))-(1-y)long(1-H(x))
 ### - Multi Classification
 
 softmax는 확률이기때문에 0과 1사이 값.
-<br>multi-nomial classification (다중 분류) : Y값의 범주가 3개 이상인 분류
+<br>multi-nomial classification (다중 분류) : Y값의 범주가 3개 이상인 분류   
+Activation function으로 softmax함수 사용
 
 **Ideas**<br>
 - 택시 승하차 지점 분석 -> 시간대 사람 많이 모이는 곳 추천 시스템
