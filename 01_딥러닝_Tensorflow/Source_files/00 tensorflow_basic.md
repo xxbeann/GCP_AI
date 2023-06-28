@@ -61,5 +61,9 @@ C(H(x),y)=-ylog(H(X))-(1-y)long(1-H(x))
 
 신경망이 1층일 때와 2층일때는 차원이 다르다. XOR문제 해결가능  
 
+### - Multi Classification
+
+softmax는 확률이기때문에 0과 1사이 값.
+
 **Ideas**<br>
 - 택시 승하차 지점 분석 -> 시간대 사람 많이 모이는 곳 추천 시스템
