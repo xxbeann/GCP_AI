@@ -59,5 +59,7 @@ linear Regression에서는 activation function이 없다.
 logloss - 로그함수를 사용한 이진분류모델   
 C(H(x),y)=-ylog(H(X))-(1-y)long(1-H(x))
 
+신경망이 1층일 때와 2층일때는 차원이 다르다. XOR문제 해결가능  
+
 **Ideas**<br>
 - 택시 승하차 지점 분석 -> 시간대 사람 많이 모이는 곳 추천 시스템
