@@ -3,6 +3,7 @@ import numpy as np
 tf.random.set_seed(5)
 
 #데이터 불러오기
+# loadtxt로 불러오는 순간 np 배열로 묶어줌
 train_xy = np.loadtxt('Tensorflow기본_데이터셋/boston_train.csv',delimiter=',',skiprows=1, dtype=np.float32)
 test_xy = np.loadtxt('Tensorflow기본_데이터셋/boston_test.csv',delimiter=',',skiprows=1, dtype=np.float32)
 
