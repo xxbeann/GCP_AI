@@ -50,11 +50,14 @@ b가 0이라면 W에 관한 2차함수 -> 미분계수가 0이될때 최소
 
 답이 3개 이상이면 다중분류 2개면 이진분류
 
-x -> wx + b -> sigmoid -> y
-Logistic Regression(binary classification)에 쓰이는 activation function은 sigmoid다.
-linear Regression에서는 activation function이 없다.
-로지스틱 회귀는 선형 회귀 와는 다르게 종속 변수가 범주형 데이터를 대상으로 하며 입력 데이터가 주어졌을 때 해당 데이터의 결과가 특정 분류로 나뉘기 때문에 일종의 분류 (classification) 기법으로도 볼 수 있다.   
+x -> wx + b -> sigmoid -> y <br>
+Logistic Regression(binary classification)에 쓰이는 activation function은 sigmoid다.   
+linear Regression에서는 activation function이 없다.   
+<br>로지스틱 회귀는 선형 회귀 와는 다르게 종속 변수가 범주형 데이터를 대상으로 하며 입력 데이터가 주어졌을 때 해당 데이터의 결과가 특정 분류로 나뉘기 때문에 일종의 분류 (classification) 기법으로도 볼 수 있다.   
 흔히 로지스틱 회귀는 종속변수가 이항형 문제(즉, 유효한 범주의 개수가 두개인 경우)를 지칭할 때 사용된다. 이외에, 두 개 이상의 범주를 가지는 문제가 대상인 경우엔 다항 로지스틱 회귀를 사용한다.
+
+logloss - 로그함수를 사용한 이진분류모델   
+C(H(x),y)=-ylog(H(X))-(1-y)long(1-H(x))
 
 **Ideas**<br>
 - 택시 승하차 지점 분석 -> 시간대 사람 많이 모이는 곳 추천 시스템
