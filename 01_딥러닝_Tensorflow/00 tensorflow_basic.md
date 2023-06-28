@@ -1,4 +1,6 @@
-# Linear Regression
+# Supervised learning
+
+### - Linear Regression
 
 **용어정리**   
 * Linear Regression(선형 회귀) : 1차 함수, 직선의 방정식
