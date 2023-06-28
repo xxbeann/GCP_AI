@@ -66,6 +66,7 @@ x_data = [[73.,80.,75.],
           [96.,98.,100.],
           [73.,66.,70.]]
 x_test = np.array(x_data,dtype=np.float32)
+# np.array = x_data리스트를 어레이로 바꿔줌
 print(hypothesis(x_test).numpy())
 # 원본
 # 73,80,75,152
