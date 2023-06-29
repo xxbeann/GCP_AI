@@ -68,5 +68,10 @@ softmax는 확률이기때문에 0과 1사이 값.
 <br>multi-nomial classification (다중 분류) : Y값의 범주가 3개 이상인 분류   
 **Activation function으로 softmax함수 사용**
 
+### # ANN, DNN, CNN, RNN   
+딥러닝은 인공신경망(Artificial Neural Network)ANN을 기초로 하고있다.   
+ANN기법의 여러문제가 해결되면서 모델 내 은닉층을 많이 늘려서 학습의 결과를 향상시키는 방법이 등장하였고 이를 DNN(Deep Neural Network)라고 합니다. DNN은 은닉층을 2개이상 지닌 학습 방법을 뜻합니다.
+https://ebbnflow.tistory.com/119
+
 **Ideas**<br>
 - 택시 승하차 지점 분석 -> 시간대 사람 많이 모이는 곳 추천 시스템
