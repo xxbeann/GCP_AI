@@ -1,6 +1,6 @@
 # Supervised learning
 
-**용어정리**   
+### 용어정리 
 * Linear Regression(선형 회귀) : 1차 함수, 직선의 방정식
 * Weigh(가중치) : 입력변수가 출력에 미치는 영향, 기울기
 * Bias(편향) : 기본 출력 값이 활성화 되는 정도, y절편
