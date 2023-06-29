@@ -1,7 +1,5 @@
 # Supervised learning
 
-### # Linear Regression
-
 **용어정리**   
 * Linear Regression(선형 회귀) : 1차 함수, 직선의 방정식
 * Weigh(가중치) : 입력변수가 출력에 미치는 영향, 기울기
@@ -23,10 +21,6 @@ but, 단점 gpu를 못씀 -> gpu를 쓸 수 있게 만든게 구글의 tensor
 텐서플로는 텐서를 생성하고 이용하는 풍부한 연산 라이브러리(ft.add, tf.matmul, tf.linalg inv 등)를 제공하며<br>
 연산수행 시 자동으로 텐서를 파이썬 네이티브 타입으로 변환하여 연산한다.
 
-### Tensorflow
-W(가중치) * X + b
-AI - 규칙기반 -> 학습기반(머신러닝:ML)<br>머신러닝 알고리즘 중 하나가 딥러닝(인공신경망을 깊게 쌓아만듬)
-
 ### Tensorflow_Rank
 1차원 shape : (3,)  
 2차원 shape : (3, 3)  
@@ -37,6 +31,10 @@ AI - 규칙기반 -> 학습기반(머신러닝:ML)<br>머신러닝 알고리즘 
 ### Tensorflow_shape
 shape로 신경망을 만듬.
 tenosr 객체가 주어진다는건 데이터가 주어진다는것 -> 데이터를 파악할 필요가 있음 특히 차원
+
+### # Linear Regression
+W(가중치) * X + b
+AI - 규칙기반 -> 학습기반(머신러닝:ML)<br>머신러닝 알고리즘 중 하나가 딥러닝(인공신경망을 깊게 쌓아만듬)
 
 ### Multi Features
 y = w * x + b  
