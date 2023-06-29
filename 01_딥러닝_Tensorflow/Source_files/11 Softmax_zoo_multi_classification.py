@@ -130,7 +130,7 @@ print("bias:", b.numpy())
 
 def predict(x):
     return tf.argmax(hypothesis(x), axis=1)
-    #argmax 값이 1인값의 인덱스를 반환
+    #argmax : 1차원 배열에서 가장 큰 값을 찾아 인덱스를 리턴
     
 # y_test_one_hot을 argamx형식으로 묶어줌
 correct_predict = tf.equal(predict(x_test),tf.argmax(y_test_one_hot,1))
