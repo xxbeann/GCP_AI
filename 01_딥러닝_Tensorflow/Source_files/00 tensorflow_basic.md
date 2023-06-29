@@ -69,7 +69,9 @@ softmax는 확률이기때문에 0과 1사이 값.
 ### # ANN, DNN, CNN, RNN   
 딥러닝은 인공신경망(Artificial Neural Network)ANN을 기초로 하고있다.   
 ANN기법의 여러문제가 해결되면서 모델 내 은닉층을 많이 늘려서 학습의 결과를 향상시키는 방법이 등장하였고 이를 DNN(Deep Neural Network)라고 합니다. DNN은 은닉층을 2개이상 지닌 학습 방법을 뜻합니다.
-https://ebbnflow.tistory.com/119
+https://ebbnflow.tistory.com/119   
+기울기 손실 문제 때문에 은닉층에서는 relu함수 사용   
+출력층은 sigmoid/softmax사용
 
 **Ideas**<br>
 - 택시 승하차 지점 분석 -> 시간대 사람 많이 모이는 곳 추천 시스템
