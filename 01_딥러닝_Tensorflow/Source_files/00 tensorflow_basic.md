@@ -73,5 +73,24 @@ https://ebbnflow.tistory.com/119
 기울기 손실 문제 때문에 은닉층에서는 relu함수 사용   
 출력층은 sigmoid/softmax사용
 
+### # Mnist Softmax
+
+MNIST(Modified National Institute of Standard Technology) Dataset <br>
+https://ko.wikipedia.org/wiki/MNIST<br>
+label : 0 ~ 9 , 손글씨체 이미지  28*28(784 byte) , gray scale<br>
+Train : 60000개 , Test : 10000개<br>
+
+batch : 큰 데이터를 쪼개어 1회에 작은 단위로 가져다가 학습, next_batch()<br>
+epoch : batch를 반복하여 전체 데이터가 모두 소진되었을 때를 1 epoch<br>
+Vanishing Gradient  : 신경망이 깊어 질수록 입력신호가 사라진다(줄어든다), sigmoid 사용시<br>
+Relu  : Rectified Linear Unit, DNN(deep neural net) 구현시 sigmoid 대신 사용됨<br>
+dropout : 전체 신경망의 일부를 사용하지 않고 학습, 예측시는 전체를<br>
+
+### # Result
+
+softmax: 다중분류<br>
+sigmoid: 2진분류<br>
+no actioin function - 회귀<br>
+
 **Ideas**<br>
 - 택시 승하차 지점 분석 -> 시간대 사람 많이 모이는 곳 추천 시스템
