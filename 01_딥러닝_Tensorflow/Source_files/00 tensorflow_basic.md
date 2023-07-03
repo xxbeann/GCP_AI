@@ -86,9 +86,6 @@ Vanishing Gradient  : 신경망이 깊어 질수록 입력신호가 사라진다
 Relu  : Rectified Linear Unit, DNN(deep neural net) 구현시 sigmoid 대신 사용됨<br>
 dropout : 전체 신경망의 일부를 사용하지 않고 학습, 예측시는 전체를<br>
 
-### # CNN
-
-
 ### # Result
 
 softmax: 다중분류<br>
