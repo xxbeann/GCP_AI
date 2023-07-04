@@ -1,8 +1,6 @@
 # CNN with Keras
 
-### Convolutional Neural Net
-
-### CNN with Keras
+### Convolutional Neural Net with Keras
 
 **Keras Sequential layer의 주요 레이어**
 
