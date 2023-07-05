@@ -10,7 +10,7 @@
 4. MaxPool2D layer: 중요 데이터를 subsampling 하는 layer
 5. Dropout layer: 학습시 신경망의 과적합을 막기위해 일부뉴런을 제거하는 layer
 
-https://yeomko.tistory.com/40<br>
+Reference: https://yeomko.tistory.com/40<br>
 Xavier Glorot Initialization : W(Weight) 값을 fan_in,fan_out를 사용하여 초기화하여 정확도 향상<br>
 
 **loss 종류**<br>
