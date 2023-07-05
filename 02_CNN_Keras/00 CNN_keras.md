@@ -9,3 +9,12 @@
 3. Conv2D layer: 이미지 특징을 추출하는 Convolution Layer
 4. MaxPool2D layer: 중요 데이터를 subsampling 하는 layer
 5. Dropout layer: 학습시 신경망의 과적합을 막기위해 일부뉴런을 제거하는 layer
+
+https://yeomko.tistory.com/40<br>
+Xavier Glorot Initialization : W(Weight) 값을 fan_in,fan_out를 사용하여 초기화하여 정확도 향상<br>
+
+**loss 종류**<br>
+mean_squared_error : 평균제곱 오차<br>
+binary_crossentropy : 이진분류 오차<br>
+categorical_crossentropy : 다중 분류 오차. one-hot encoding 클래스, [0.2, 0.3, 0.5] 와 같은 출력값과 실측값의 오차값을 계산한다.<br>
+sparse_categorical_crossentropy: 다중 분류 오차. 위와 동일하지만 , integer type 클래스라는 것이 다르다.<br>
