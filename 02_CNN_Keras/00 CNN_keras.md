@@ -19,6 +19,6 @@ binary_crossentropy : 이진분류 오차<br>
 categorical_crossentropy : 다중 분류 오차. one-hot encoding 클래스, [0.2, 0.3, 0.5] 와 같은 출력값과 실측값의 오차값을 계산한다.<br>
 sparse_categorical_crossentropy: 다중 분류 오차. 위와 동일하지만 , integer type 클래스라는 것이 다르다.<br>
 
-**모델평가**
-Validation - 모델 내부의 파라미터를 검사
-Testing - 학습완료 후 검사
+**모델평가**<br>
+Validation - 모델 내부의 파라미터를 검사<br>
+Testing - 학습완료 후 검사<br>
