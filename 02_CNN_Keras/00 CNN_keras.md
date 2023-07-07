@@ -27,3 +27,5 @@ Testing - 학습완료 후 검사<br>
 CNN은 영상의 2차원 변환인 회전, 크기, 밀림, 반사, 이동과 같은 2차원 변환인 Affine Transform에 취약하다.<br>
 Affine Transform으로 변환된 영상은 다른 영상으로 인식한다.<br>
 Data Augmentation을 위한 데이터 생성하는 방법으로는 keras의 ImageDataGenerator을 사용할 수 있다.
+
+hiing
