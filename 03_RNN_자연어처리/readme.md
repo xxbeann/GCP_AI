@@ -10,3 +10,13 @@ RNN(Recurrent Neural Network) : 순환 신경망
 #### (1) SimpleRNN :가장 간단한 형태의 RNN레이어, 활성화 함수로 tanh가 사용됨(tanh: -1 ~ 1 사이의 값을 반환)
 #### (2) LSTM(Long short Term Memory) : 입력 데이터와 출력 사이의 거리가 멀어질수로 연관 관계가 적어진다(Long Term Dependency,장기의존성 문제), LSTM은 장기 의존성 문제를 해결하기 위해 출력값외에 셀상태(cell state)값을 출력함, 활성화 함수로 tanh외에 sigmoid가 사용됨
 #### (3) GRU(Gated Recurent Unit) : 뉴욕대 조경현 교수 등이 제안, LSTM보다 구조가 간단하고 성능이 우수함
+
+**[자연어 처리 활용 분야 ]**
+1. spam and ham 분류기 
+2. 쇼핑/영화  감성 분석
+3. 텍스트 요약
+4. 기계 번역 
+5. 토픽 모델링
+6. 질의 응답(QA) 시스템 구현
+7. 챗봇 구현
+8. 악성(Toxic)문장,비속어 필터링
