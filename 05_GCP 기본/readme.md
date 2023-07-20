@@ -67,8 +67,10 @@ https://www.cloudskillsboost.google/focuses/44159?catalog_rank=%7B%22rank%22%3A1
 https://www.cloudskillsboost.google/focuses/1038?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&locale=ko&parent=catalog&search_id=24999935
 
 
+
  *** VPC Networking 이론 설명후 실습 진행
 
+<4th Day>
 [9] Set Up Network and HTTP Load Balancers : (HTTP Load Balancer)
 
 https://www.cloudskillsboost.google/focuses/12007?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=24971158
@@ -80,6 +82,12 @@ gcloud compute firewall-rules create fw-allow-health-check \
   --direction=ingress \  
   --target-tags=allow-health-check \
   --rules=tcp:80
+
+export Region=us-central1
+gcloud compute instance-templates create lb-backend-template \
+   --region=$Region \
+   --network=default \
+
 
 [아래 명령으로 얻어진 주소를 웹브라우저에 입력하고 다시 고침을 하면 출력 값이 변한다] 
 gcloud compute addresses describe lb-ipv4-1 \
@@ -108,9 +116,13 @@ export REGION=$(gcloud config get compute/region)
 https://www.cloudskillsboost.google/focuses/1229?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=24974993
 
 
-[12] Multiple VPC NetworksMultiple VPC Networks : (다중 VPC 네트워크)
+[12] Multiple VPC NetworksMultiple VPC Networks : (다중 VPC 네트워크,실습 생략)
 
 https://www.cloudskillsboost.google/focuses/1230?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&locale=ko&parent=catalog&search_id=24977321
+
+[수정요]
+gcloud compute instances create privatenet-us-vm --zone="" --machine-type=e2-micro --subnet=privatesubnet-us 부분을
+gcloud compute instances create privatenet-us-vm --zone="us-east1-b" --machine-type=e2-micro --subnet=privatesubnet-us  와 같이 수정하여 실행한다
 
 
 [13] VPC Network Peering : (VPC Peering)
