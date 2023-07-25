@@ -101,7 +101,7 @@ Page served from: lb-backend-group-z7h6 에서  Page served from: lb-backend-gro
 
 
 [10] Networking 101 : (기본 네트워크 설정)
-  (Task 6까지만 수행한다)
+  (Task 6까지만 수행한다)   
 https://www.cloudskillsboost.google/focuses/1743?catalog_rank=%7B%22rank%22%3A10%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=24999434
  
 [Set your region and zone 마지막 줄에 zone이 아니라  region임]
@@ -115,8 +115,11 @@ export REGION=$(gcloud config get compute/region)
 
 https://www.cloudskillsboost.google/focuses/1229?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=24974993
 
+[퀵랩이 아닌 환경에서 default VPC를 삭제하지 않았을 경우에는 ]
+Task 2에서 VPC생성 후 VM 인스턴스 생성시 생성된 VPC(mynetwork)로 직접 설정해 주어야함
+퀵랩에서는 자동으로 VM인스턴스 생성시 mynetwork VPC가 설정됨
 
-[12] Multiple VPC NetworksMultiple VPC Networks : (다중 VPC 네트워크,실습 생략)
+[12] [실습생략] Multiple VPC Networks : (다중 VPC 네트워크)
 
 https://www.cloudskillsboost.google/focuses/1230?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&locale=ko&parent=catalog&search_id=24977321
 
@@ -125,10 +128,38 @@ gcloud compute instances create privatenet-us-vm --zone="" --machine-type=e2-mic
 gcloud compute instances create privatenet-us-vm --zone="us-east1-b" --machine-type=e2-micro --subnet=privatesubnet-us  와 같이 수정하여 실행한다
 
 
+<5th Day>
 [13] VPC Network Peering : (VPC Peering)
 
 https://www.cloudskillsboost.google/focuses/964?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=24999254
 
+[수정요 , Task 2에서]
+gcloud compute routes list --project  을
+gcloud compute routes list  으로 변경 실행한다
+
+[결과확인]
+ Project-B의 vm-b SSH 접속창에서 Project-A의 vm-a의 내부 주소를 ping으로 연결 테스트 
+
 [14] VPC Networks - Controlling Access : (방화벽 규칙)
 
 https://www.cloudskillsboost.google/focuses/1231?catalog_rank=%7B%22rank%22%3A10%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&locale=ko&parent=catalog&search_id=24999491
+
+[15]  Caching Content with Cloud CDN  : (CDN 구현]
+https://www.cloudskillsboost.google/focuses/57558?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=25051829
+
+[설명]: storage bucket에 이미지를 올려 놓고 CLoud CDN 으로 서비스하면 로그 기록에서 statusDetails 값이
+한번은 response_sent_by_backend으로 그 다음 부터는   response_from_cached (cacheHit: true)으로 보여진다
+즉 처음에는 Cache에 없으므로 backend에서 가져 오지만 그다음 부터는 edge location(cache server)로 부터 가져온다
+
+[GCP 캐시 위치]
+https://cloud.google.com/cdn/docs/locations?hl=ko
+
+
+[16] Building a High-throughput VPN  : (VPN 구현)
+
+https://www.cloudskillsboost.google/focuses/641?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&locale=ko&parent=catalog&search_id=25051104
+
+
+[17]  Customize Network Topology with Subnetworks  : (Subnet 구현)
+
+https://www.cloudskillsboost.google/focuses/690?catalog_rank=%7B%22rank%22%3A7%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=25050984
