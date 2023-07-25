@@ -5,4 +5,4 @@ https://www.kaggle.com/competitions/titanic/data <br>
 https://archive.ics.uci.edu/datasets
 
 For more details   
-https://www.notion.so/Google-Cloud-Platform-161b5f82a6994b258a0d7c277672d5cb?pvs=4
+https://dandy-wool-62f.notion.site/Google-Cloud-Platform-161b5f82a6994b258a0d7c277672d5cb?pvs=4
