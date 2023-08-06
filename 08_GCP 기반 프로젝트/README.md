@@ -53,7 +53,7 @@ https://velog.io/@ryan_95/%EA%B0%90%EC%84%B1%EB%B6%84%EB%A5%98-%EB%AA%A8%EB%8D%B
 ex) 근 3주간의 일기를 분석한 결과 우울증이 의심됩니다.<br>
 DSM-5 기준, 전문의와 상담을 요구합니다.
 
-### 예상 학습 모델
+### 학습 모델
 
 **Classification 이용**<br>
 
