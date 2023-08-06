@@ -17,7 +17,7 @@
 
 ### Design
 <figure>
-    <img src="https://i.esdrop.com/d/ZklKfna5T3.jpg" alt="하얀 강아지">
+    <img src="https://github.com/xxbeann/GCP_AI/blob/main/08_GCP%20%EA%B8%B0%EB%B0%98%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/Color%20Hunt%20Palette%206528f7a076f9d7bbf5ede4ff.png">
 </figure>
 #A076F9<br>
 #D7BBF5<br>
