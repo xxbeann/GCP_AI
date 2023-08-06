@@ -84,3 +84,9 @@ https://www.kaggle.com/datasets/arashnic/the-depression-dataset<br>
 [Open sourced raw data from Openpsychometrics.org]<br>
 https://www.kaggle.com/datasets/lucasgreenwell/depression-anxiety-stress-scales-responses<br>
 (얘는 뭐하는 데이터인지 사실 잘 모르겠음...)
+
+### 향후계획
+2023 - 감정일기를 통한 우울증 노티<br>
+2024 상반기 - 우울증뿐만 아니라 무기력증, 번아웃 등 전체적인 정신의학적질환 노티기능 추가<br>
+2024 하반기 - 사용자 위치 기반 주변 정신의학과 추천해주는 서비스 추가,<br>
+몇개의 병원과 제휴 맺을 시 수익창출가능
