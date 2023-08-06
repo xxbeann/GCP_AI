@@ -11,6 +11,18 @@
 이 서비스는 전문의 대신 진단을 내리는 게 아니라 특정 정신질환의 위험이 있을경우 사용자에게 노티를 해줍니다.   
 더 나아가 만약 전문의의 진료를 받게 된다면, 그동안 쓴 감정일기를 진료자료로도 활용할 수 있습니다."
 
+"우울증 및 정신질환은 해가 갈수록 높아지고 있는 추세"<br>
+서울시 우울증 진단경험률 통계.csv 파일 참조<br>
+
+"지인 10명중 5명 항우울제 복용경험 있음"<br>
+그렇게 먼 문제만은 아님.<br>
+
+"설문조사 통해 수요의 타당성 파악"<br>
+
+"정신과 전문의 자문을 통해 이러한 서비스가 나왔을경우 <br>
+진료목적으로 혹은 진료까지 오지 않더라도 어느정도 회복이 가능한지 자문 구하기"
+
+
 ### Vision
 '당신의 하루는' 애초에 높게만 느껴졌던 정신건강의학과의 진입장벽을 낮출뿐만아니라<br>
 모든 사람들이 본인의 감정에 한층 더 다가갈수 있게 만들며 자기자신을 더 알아갈 수 있는 기회를 제공합니다.
@@ -34,4 +46,41 @@
 **감정일기**<br>
 사용자가 본인의 하루를 감정일기로 기록<br>
 AI가 감정 분류<br>
+자연어처리 API이용<br>
 https://velog.io/@ryan_95/%EA%B0%90%EC%84%B1%EB%B6%84%EB%A5%98-%EB%AA%A8%EB%8D%B8-%EA%B5%AC%EC%B6%95
+
+**Notice**<br>
+ex) 근 3주간의 일기를 분석한 결과 우울증이 의심됩니다.<br>
+DSM-5 기준, 전문의와 상담을 요구합니다.
+
+### 예상 학습 모델
+
+**Classification 이용**<br>
+
+1. 감정 분류 모델을 통해 사용자가 쓴 감정 분류
+2. 우울증을 판별할 수 있는 모델에 넣고 돌림
+3. 강도에따라 분류
+4. 노티
+
+**Dataset**
+
+**Suicide and Depression Detection**<br>
+[A dataset that can be used to detect suicide and depression in a text.]<br>
+https://www.kaggle.com/datasets/nikhileswarkomati/suicide-watch
+
+**The Depression Dataset**<br>
+[Help researchers to automatically detect depression status of a person]<br>
+https://www.kaggle.com/datasets/arashnic/the-depression-dataset<br>
+이미 우울증으로 판단된 사람의 중증정도 판단.<br>
+사용 가능한 데이터는 궁극적으로 연구자들이 센서 데이터를 기반으로<br>
+우울증 상태를 자동으로 감지할 수 있는 시스템을 개발하는 데 도움이 될 수 있습니다.<br>
+이 데이터 세트는 다음 애플리케이션에 적합할 수 있지만 이에 국한되지는 않습니다.<br>
+<br>
+(i) 우울증 상태 분류를 위한 기계 학습 사용<br>
+(ii) 운동 활동 데이터를 기반으로 한 MADRS 점수 예측<br>
+(iii) 우울한 참가자와 우울하지 않은 참가자의 수면 패턴 분석<br>
+
+**Depression Anxiety Stress Scales Responses**
+[Open sourced raw data from Openpsychometrics.org]<br>
+https://www.kaggle.com/datasets/lucasgreenwell/depression-anxiety-stress-scales-responses<br>
+(얘는 뭐하는 데이터인지 사실 잘 모르겠음...)
