@@ -16,7 +16,9 @@
 모든 사람들이 본인의 감정에 한층 더 다가갈수 있게 만들며 자기자신을 더 알아갈 수 있는 기회를 제공합니다.
 
 ### Design
-연보라색 주로 사용<br>
+<figure>
+    <img src="https://i.esdrop.com/d/ZklKfna5T3.jpg" alt="하얀 강아지">
+</figure>
 #A076F9<br>
 #D7BBF5<br>
 #D7BBF5<br>
