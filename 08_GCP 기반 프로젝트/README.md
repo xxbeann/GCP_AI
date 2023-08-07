@@ -104,3 +104,6 @@ https://www.kaggle.com/datasets/lucasgreenwell/depression-anxiety-stress-scales-
 - 자연어를 바로 분석해서 우울증을 판별할 수 있는 데이터 셋이 없음
 - 첫번째 데이터셋을 통해 자살/비자살, 텍스트에 들어있는 우울을 파악한 후 <br>
 DSM-5에 있는 우울증 자가진단 및 척도에 따라 if문 사용해서 우울증인지 아닌지 임상적으로 판단하는 부분 구현 필요
+
+### 오늘숙제
+- 생활코딩 들어오기
