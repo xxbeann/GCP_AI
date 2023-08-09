@@ -1,0 +1,31 @@
+[강의중 필기]
+* Lift and Shift
+: Application을 클라우드로 마이그레이션할때 Application을 다시 설계하지 않고
+Application과 관련데이터를 클라우드 플랫폼으로 그대로 이동하여 사용하는것
+
+* HDFS의 단점
+1. 가격이 비쌈
+2. storage와 computing 리소스를 분리못함
+3. 완전관리형인 GSC에 비해 관리 오버헤드
+
+* On-Premiss Hadoop cluster의 단점
+1. storage와 computing 리소스가  분리 되지 못함
+2. scaling을 빠르게 할 수가 없다
+3. 용량제한(Capacity Limit)이 있다
+    물리 서버 증설이 필요하다
+
+
+* Dataflow : Apache Beam기반
+1. DirectRunner : 로컬에서 실행
+2. DataflowRunner : 클라우드에서 실행
+
+
+* matrix factorization : Linear Regression의 단점인 interaction 미반영을 보완하기위해
+     LR에 추가로 피쳐간 곱셈을 사용하여 구현,계산량이 많아지므로 행렬의 고유값 분해를 사용하여
+     계산량을 줄임, 추천시스템에 많이 사용됨
+
+
+
+
+
+
