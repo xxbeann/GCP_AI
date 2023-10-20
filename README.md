@@ -8,5 +8,5 @@ https://www.data.go.kr/<br>
 https://www.kaggle.com/competitions/titanic/data <br>
 https://archive.ics.uci.edu/datasets
 
-For more details   
-https://dandy-wool-62f.notion.site/Google-Cloud-Platform-161b5f82a6994b258a0d7c277672d5cb?pvs=4
+For more details    
+https://xxbean.notion.site/Google-Cloud-Platform-161b5f82a6994b258a0d7c277672d5cb?pvs=4
